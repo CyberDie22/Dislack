@@ -20,6 +20,9 @@ kotlin {
             dependencies {
                 implementation(project(":common"))
                 implementation(compose.desktop.currentOs)
+                implementation("com.arkivanov.decompose:decompose:0.2.4")
+                implementation("com.arkivanov.decompose:extensions-compose-jetbrains:0.2.4")
+                implementation("com.arkivanov.decompose:extensions-android:0.2.4")
             }
         }
         val jvmTest by getting
