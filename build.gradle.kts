@@ -1,4 +1,4 @@
-@Suppress("GradleDependency") buildscript {
+buildscript {
     repositories {
         gradlePluginPortal()
         jcenter()
